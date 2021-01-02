@@ -20,7 +20,7 @@ Add to `.repo/local_manifests/treltexx.xml`:
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<project path="device/samsung/treltexx" name="android_device_samsung_treltexx" remote="ananjaser1211" revision="twrp-7.1" />
+	<project path="device/samsung/treltexx" name="TWRP_device_samsung_treltexx" remote="minie04" revision="twrp-7.1_trelteskt" />
 </manifest>
 ```
 
@@ -30,7 +30,7 @@ To build:
 
 ```sh
 . build/envsetup.sh
-lunch omni_treltexx-eng
+lunch omni_trelteskt-eng
 make -j5 recoveryimage
 ```
 

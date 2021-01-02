@@ -1,4 +1,4 @@
-## TWRP device tree for Samsung Galaxy Note 4 Exynos LTE KOR N910S/L/K (trelteskt)
+## TWRP device tree for Samsung Galaxy Note 4 Exynos LTE N910C/H (treltexx)
 
  Copyright (C) 2019 Ananjaser1211 Open-Source
 
@@ -15,12 +15,12 @@
  limitations under the License.
 
 
-Add to `.repo/local_manifests/trelteskt.xml`:
+Add to `.repo/local_manifests/treltexx.xml`:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<project path="device/samsung/trelteskt" name="TWRP_device_samsung_trelteskt" remote="minie04" revision="twrp-7.1_trelteskt" />
+	<project path="device/samsung/treltexx" name="android_device_samsung_treltexx" remote="ananjaser1211" revision="twrp-7.1" />
 </manifest>
 ```
 
@@ -30,7 +30,7 @@ To build:
 
 ```sh
 . build/envsetup.sh
-lunch omni_trelteskt-eng
+lunch omni_treltexx-eng
 make -j5 recoveryimage
 ```
 

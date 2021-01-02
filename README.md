@@ -20,7 +20,7 @@ Add to `.repo/local_manifests/trelteskt.xml`:
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<project path="device/samsung/trelteskt" name="android_device_samsung_trelteskt" remote="ananjaser1211" revision="twrp-7.1_trelteskt" />
+	<project path="device/samsung/trelteskt" name="TWRP_device_samsung_trelteskt" remote="minie04" revision="twrp-7.1_trelteskt" />
 </manifest>
 ```
 

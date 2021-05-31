@@ -1,4 +1,4 @@
-## TWRP device tree for Samsung Galaxy Note 4 Exynos LTE N910C/H (treltexx)
+## TWRP device tree for Samsung Galaxy Note 4 Exynos LTE N910SKL (treltexxx)
 
  Copyright (C) 2019 Ananjaser1211 Open-Source
 
@@ -15,7 +15,7 @@
  limitations under the License.
 
 
-Add to `.repo/local_manifests/treltexx.xml`:
+Add to `.repo/local_manifests/treltexxx.xml`:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
